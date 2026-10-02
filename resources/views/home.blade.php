@@ -30,11 +30,35 @@
 
                     <div class="card border-0 shadow-lg overflow-hidden">
 
-                        <img
-                            src="{{ asset('images/coming-soon-jonaki-machinery-store.png') }}"
-                            class="img-fluid w-100"
-                            alt="Jonaki Machinery Store - Coming Soon"
-                        >
+                        <div class="card-body p-0">
+
+                            <div class="row g-0">
+
+                                <div class="col-12 col-lg-6 d-none d-lg-block bg-light">
+
+                                    <div class="d-flex flex-column align-items-center justify-content-center h-100 p-4">
+
+                                        <img src="{{ asset('images/jonaki-machinery-store-logo-removebg-preview.png') }}" alt="Logo" class="img-fluid mb-4" style="max-width: 200px;">
+
+                                        <h1 class="text-center">Welcome to Jonaki Machinery Store</h1>
+
+                                        <p class="text-center">Since 1972, we are a trusted name in the machinery industry in Nawabpur.</p>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="col-12 col-lg-6">
+
+                                    <div class="p-4 p-lg-5">
+
+                                        @yield('content')
+
+                                    </div>
+
+                                </div>
+
+                            </div>
 
                     </div>
 
