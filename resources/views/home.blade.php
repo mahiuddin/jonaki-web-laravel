@@ -4,10 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Jonaki Machinery Store | Industrial Belts</title>
+    <title>Jonaki Machinery Store | Industrial Belts in Bangladesh</title>
 
     <meta name="description"
-          content="Jonaki Machinery Store - Industrial V-Belts, Timing Belts and Transmission Belts. Serving Bangladesh since 1972.">
+      content="Jonaki Machinery Store — Since 1972. Importer, stockist, wholesaler and retailer of V-Belts, Timing Belts and Transmission Belts in Bangladesh.">
+
+    <meta property="og:title"
+      content="Jonaki Machinery Store | Industrial Belts">
+
+    <meta property="og:description"
+      content="Quality V-Belts, Timing Belts and Transmission Belts. Serving customers since 1972.">
+
+    <meta property="og:type"
+      content="website">
+
+    <meta property="og:url"
+      content="{{ url('/') }}">
+
+    <meta property="og:image"
+      content="{{ asset('images/og-jonaki.jpg') }}">      
 
     {{-- Bootstrap --}}
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
