@@ -618,3 +618,724 @@ a {
         padding: 70px 0;
     }
 }
+
+/* Product Categories */
+
+.category-card {
+    background: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.category-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+.category-image {
+    height: 220px;
+    overflow: hidden;
+    background: #f1f3f5;
+}
+
+.category-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.category-card:hover .category-image img {
+    transform: scale(1.06);
+}
+
+.category-link {
+    text-decoration: none;
+    font-weight: 600;
+    color: #0d6efd;
+}
+
+.category-link:hover {
+    color: #084298;
+}
+
+.category-link i {
+    margin-left: 5px;
+    transition: margin-left 0.2s ease;
+}
+
+.category-link:hover i {
+    margin-left: 9px;
+}
+
+/* ========================================
+   Why Choose Jonaki
+======================================== */
+
+.why-choose-section {
+    background: #ffffff;
+}
+
+.section-subtitle {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #0d6efd;
+}
+
+.section-title {
+    font-size: 38px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #212529;
+}
+
+.section-title span {
+    color: #0d6efd;
+}
+
+.why-card {
+    padding: 28px 25px;
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.why-card:hover {
+    transform: translateY(-5px);
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.why-icon {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    background: #eaf2ff;
+    color: #0d6efd;
+    font-size: 24px;
+}
+
+.why-card h4 {
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: 700;
+    color: #212529;
+}
+
+.why-card p {
+    margin-bottom: 0;
+    color: #6c757d;
+    line-height: 1.7;
+    font-size: 14px;
+}
+
+/* Mobile */
+
+@media (max-width: 767.98px) {
+    .section-title {
+        font-size: 30px;
+    }
+
+    .why-card {
+        padding: 22px 20px;
+    }
+}
+
+/* ========================================
+   Industries We Serve
+======================================== */
+
+.industries-section {
+    background: #f8f9fa;
+}
+
+.industry-card {
+    height: 100%;
+    padding: 30px 22px;
+    text-align: center;
+    background: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.industry-card:hover {
+    transform: translateY(-6px);
+    border-color: #0d6efd;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+}
+
+.industry-icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    background: #eaf2ff;
+    color: #0d6efd;
+
+    font-size: 26px;
+
+    transition: all 0.3s ease;
+}
+
+.industry-card:hover .industry-icon {
+    background: #0d6efd;
+    color: #ffffff;
+}
+
+.industry-card h4 {
+    margin-bottom: 8px;
+
+    font-size: 18px;
+    font-weight: 700;
+    color: #212529;
+}
+
+.industry-card p {
+    margin-bottom: 0;
+
+    color: #6c757d;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* ========================================
+   About Jonaki
+======================================== */
+
+.about-jonaki-section {
+    background: #ffffff;
+}
+
+.about-image-wrapper {
+    position: relative;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+.about-image {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+
+    border-radius: 14px;
+
+    display: block;
+}
+
+.about-year-badge {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    width: 125px;
+    height: 125px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: #0d6efd;
+    color: #ffffff;
+
+    border-radius: 12px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.about-year-badge strong {
+    font-size: 34px;
+    line-height: 1;
+    font-weight: 800;
+}
+
+.about-year-badge span {
+    margin-top: 5px;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.about-lead {
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: 500;
+    color: #343a40;
+}
+
+.about-business-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.about-point {
+    display: flex;
+    align-items: center;
+
+    padding: 10px 16px;
+
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+
+    font-size: 14px;
+    font-weight: 600;
+    color: #343a40;
+}
+
+.about-point i {
+    margin-right: 8px;
+    color: #0d6efd;
+    font-size: 15px;
+}
+
+/* Mobile */
+
+@media (max-width: 991.98px) {
+    .about-image {
+        height: 400px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .about-image-wrapper {
+        padding-right: 15px;
+        padding-bottom: 20px;
+    }
+
+    .about-image {
+        height: 320px;
+    }
+
+    .about-year-badge {
+        width: 100px;
+        height: 100px;
+    }
+
+    .about-year-badge strong {
+        font-size: 28px;
+    }
+
+    .about-lead {
+        font-size: 16px;
+    }
+}
+
+/* ========================================
+   Customer Testimonials
+======================================== */
+
+.testimonials-section {
+    background: #f8f9fa;
+}
+
+.testimonial-card {
+    position: relative;
+
+    padding: 32px 28px;
+
+    background: #ffffff;
+
+    border: 1px solid #e9ecef;
+    border-radius: 14px;
+
+    transition: all 0.3s ease;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.testimonial-quote {
+    position: absolute;
+
+    top: 22px;
+    right: 25px;
+
+    font-size: 42px;
+    line-height: 1;
+
+    color: #eaf2ff;
+}
+
+.testimonial-stars {
+    margin-bottom: 18px;
+
+    color: #f5b301;
+    font-size: 14px;
+}
+
+.testimonial-stars i {
+    margin-right: 2px;
+}
+
+.testimonial-text {
+    margin-bottom: 25px;
+
+    color: #5f6368;
+
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.testimonial-customer {
+    display: flex;
+    align-items: center;
+
+    padding-top: 20px;
+
+    border-top: 1px solid #eeeeee;
+}
+
+.customer-avatar {
+    width: 48px;
+    height: 48px;
+
+    margin-right: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #eaf2ff;
+    color: #0d6efd;
+
+    font-size: 20px;
+}
+
+.testimonial-customer h5 {
+    margin: 0 0 3px;
+
+    font-size: 15px;
+    font-weight: 700;
+
+    color: #212529;
+}
+
+.testimonial-customer span {
+    font-size: 13px;
+    color: #6c757d;
+}
+
+/* ========================================
+   Contact / Inquiry
+======================================== */
+
+.contact-section {
+    background: #ffffff;
+}
+
+.contact-info-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-info-item {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info-icon {
+    width: 48px;
+    height: 48px;
+
+    margin-right: 15px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+
+    background: #eaf2ff;
+    color: #0d6efd;
+
+    font-size: 20px;
+}
+
+.contact-info-item span {
+    display: block;
+
+    margin-bottom: 3px;
+
+    color: #6c757d;
+
+    font-size: 13px;
+}
+
+.contact-info-item strong {
+    display: block;
+
+    color: #212529;
+
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.inquiry-form-card {
+    height: 100%;
+
+    padding: 35px;
+
+    background: #f8f9fa;
+
+    border: 1px solid #e9ecef;
+    border-radius: 14px;
+}
+
+.inquiry-form-card h3 {
+    font-size: 25px;
+}
+
+.inquiry-form-card .form-label {
+    margin-bottom: 7px;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    color: #343a40;
+}
+
+.inquiry-form-card .form-control {
+    min-height: 48px;
+
+    padding: 10px 14px;
+
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+
+    font-size: 14px;
+}
+
+.inquiry-form-card textarea.form-control {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.inquiry-form-card .form-control:focus {
+    border-color: #0d6efd;
+
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.1);
+}
+
+.inquiry-form-card .btn {
+    min-height: 48px;
+
+    font-weight: 600;
+}
+
+/* Mobile */
+
+@media (max-width: 767.98px) {
+    .inquiry-form-card {
+        padding: 25px 20px;
+    }
+}
+
+/* ========================================
+   Jonaki Footer
+======================================== */
+
+.jonaki-footer {
+    background: #151a21;
+    color: #adb5bd;
+}
+
+.footer-logo {
+    display: inline-block;
+
+    text-decoration: none;
+
+    color: #ffffff;
+
+    font-size: 24px;
+    font-weight: 700;
+
+    transition: color 0.2s ease;
+}
+
+.footer-logo:hover {
+    color: #0d6efd;
+}
+
+.footer-description {
+    max-width: 380px;
+
+    color: #adb5bd;
+
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.footer-since {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+
+    margin-top: 20px;
+}
+
+.footer-since span {
+    font-size: 13px;
+    color: #868e96;
+}
+
+.footer-since strong {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.footer-title {
+    margin-bottom: 20px;
+
+    color: #ffffff;
+
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer-links {
+    list-style: none;
+
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 11px;
+}
+
+.footer-links a {
+    text-decoration: none;
+
+    color: #adb5bd;
+
+    font-size: 14px;
+
+    transition: all 0.2s ease;
+}
+
+.footer-links a:hover {
+    color: #ffffff;
+    padding-left: 4px;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+
+    gap: 16px;
+}
+
+.footer-contact-item {
+    display: flex;
+    align-items: flex-start;
+
+    gap: 12px;
+
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-contact-item i {
+    flex-shrink: 0;
+
+    margin-top: 2px;
+
+    color: #0d6efd;
+
+    font-size: 17px;
+}
+
+.footer-contact-item a {
+    text-decoration: none;
+    color: #adb5bd;
+
+    transition: color 0.2s ease;
+}
+
+.footer-contact-item a:hover {
+    color: #ffffff;
+}
+
+.footer-social {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-social a {
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #343a40;
+    border-radius: 8px;
+
+    color: #adb5bd;
+
+    text-decoration: none;
+
+    transition: all 0.2s ease;
+}
+
+.footer-social a:hover {
+    color: #ffffff;
+    background: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.footer-bottom {
+    border-top: 1px solid #2b3035;
+
+    padding: 18px 0;
+
+    color: #868e96;
+
+    font-size: 13px;
+}
+
+/* Mobile */
+
+@media (max-width: 767.98px) {
+    .jonaki-footer {
+        text-align: left;
+    }
+
+    .footer-description {
+        max-width: 100%;
+    }
+
+    .footer-bottom {
+        text-align: left;
+    }
+}
