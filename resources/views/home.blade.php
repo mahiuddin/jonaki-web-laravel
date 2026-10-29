@@ -1019,7 +1019,7 @@
                     <div class="product-card">
 
                         <div class="product-image">
-                            <img src="{{ asset('images/products/moonlux-a-vbelt.jpg') }}"
+                            <img src="{{ asset('images/products/moonlux-a-jonaki-machinery-store.jpeg') }}"
                                  alt="MOONLUX V-Belt">
                         </div>
 
@@ -1036,6 +1036,76 @@
                             <div class="size-info">
                                 <span>Available Size</span>
                                 <strong>15 ~ 165 inches</strong>
+                            </div>
+
+                            <a href="#"
+                               class="product-link">
+                                View Details
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="product-card">
+
+                        <div class="product-image">
+                            <img src="{{ asset('images/products/moonlux-b-vbelt-jonaki-machinery-store.jpg') }}"
+                                 alt="MOONLUX V-Belt">
+                        </div>
+
+                        <div class="product-card-body">
+
+                            <span class="product-brand">
+                                MOONLUX
+                            </span>
+
+                            <h4>
+                                B Section V-Belt
+                            </h4>
+
+                            <div class="size-info">
+                                <span>Available Size</span>
+                                <strong>20 ~ 220 inches</strong>
+                            </div>
+
+                            <a href="#"
+                               class="product-link">
+                                View Details
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="product-card">
+
+                        <div class="product-image">
+                            <img src="{{ asset('images/products/moonlux-c-vbelt-jonaki-machinery-store.jpg') }}"
+                                 alt="MOONLUX V-Belt">
+                        </div>
+
+                        <div class="product-card-body">
+
+                            <span class="product-brand">
+                                MOONLUX
+                            </span>
+
+                            <h4>
+                                C Section V-Belt
+                            </h4>
+
+                            <div class="size-info">
+                                <span>Available Size</span>
+                                <strong>30 ~ 300 inches</strong>
                             </div>
 
                             <a href="#"
