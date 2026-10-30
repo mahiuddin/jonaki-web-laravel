@@ -1119,6 +1119,76 @@
                     </div>
 
                 </div>
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="product-card">
+
+                        <div class="product-image">
+                            <img src="{{ asset('images/products/moonlux-m-vbelt-jonaki-machinery-store.jpeg') }}"
+                                 alt="MOONLUX V-Belt">
+                        </div>
+
+                        <div class="product-card-body">
+
+                            <span class="product-brand">
+                                MOONLUX
+                            </span>
+
+                            <h4>
+                                M Section V-Belt
+                            </h4>
+
+                            <div class="size-info">
+                                <span>Available Size</span>
+                                <strong>15 ~ 70 inches</strong>
+                            </div>
+
+                            <a href="#"
+                               class="product-link">
+                                View Details
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="product-card">
+
+                        <div class="product-image">
+                            <img src="{{ asset('images/products/moonlux-hm-vbelt-jonaki-machinery-store.jpeg') }}"
+                                 alt="MOONLUX V-Belt">
+                        </div>
+
+                        <div class="product-card-body">
+
+                            <span class="product-brand">
+                                MOONLUX
+                            </span>
+
+                            <h4>
+                                HM Section V-Belt
+                            </h4>
+
+                            <div class="size-info">
+                                <span>Available Size</span>
+                                <strong>16 ~ 100 inches</strong>
+                            </div>
+
+                            <a href="#"
+                               class="product-link">
+                                View Details
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
 
             </div>
 
@@ -1158,7 +1228,7 @@
                     <div class="product-card">
 
                         <div class="product-image">
-                            <img src="{{ asset('images/products/fujiang-a-vbelt.jpg') }}"
+                            <img src="{{ asset('images/products/fujiang-ax-vbelt-jonaki-machinery-store.jpeg') }}"
                                  alt="FUJIANG V-Belt">
                         </div>
 
@@ -1194,7 +1264,7 @@
                     <div class="product-card">
 
                         <div class="product-image">
-                            <img src="{{ asset('images/products/fujiang-a-vbelt.jpg') }}"
+                            <img src="{{ asset('images/products/fujiang-ax-vbelt-jonaki-machinery-store.jpeg') }}"
                                  alt="FUJIANG V-Belt">
                         </div>
 
