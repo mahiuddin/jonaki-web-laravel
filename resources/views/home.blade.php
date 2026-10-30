@@ -33,7 +33,8 @@
           rel="stylesheet">
 
     {{-- Custom CSS --}}
-    <link rel="stylesheet" href="{{ asset('css/jonaki.css') }}">
+    <link rel="stylesheet"
+      href="{{ asset('css/jonaki.css') }}?v={{ filemtime(public_path('css/jonaki.css')) }}">
 </head>
 
 <body>
