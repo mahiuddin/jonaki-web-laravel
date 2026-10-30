@@ -46,11 +46,23 @@
         <div class="container">
 
             {{-- Logo --}}
-            <a class="navbar-brand d-flex align-items-center" href="/">
+            <a class="navbar-brand d-flex align-items-center gap-3" href="/">
+
+            <img src="{{ asset('images/jonaki-machinery-store-logo-removebg-preview.png') }}"
+                alt="Jonaki Machinery Store"
+                class="jms-logo">
+
+            <div class="brand-text">
+                <span class="brand-name">JONAKI MACHINERY STORE</span>
+                <span class="brand-since">Since 1972</span>
+            </div>
+
+            </a>
+            {{-- <a class="navbar-brand d-flex align-items-center" href="/">
                 <img src="{{ asset('images/jonaki-machinery-store-logo-removebg-preview.png') }}"
                      alt="Jonaki Machinery Store"
                      class="jms-logo">
-            </a>
+            </a> --}}
 
             {{-- Mobile Menu --}}
             <button class="navbar-toggler"
@@ -590,7 +602,318 @@
             </p>
 
         </div>
+        {{-- =================================================
+             MOONLUX
+        ================================================== --}}
+        <div id="moonlux" class="brand-product-section">
 
+            <div class="brand-title-row">
+
+                <div>
+                    <span class="product-brand-label">
+                        MOONLUX
+                    </span>
+
+                    <h3>
+                        V-Belts
+                    </h3>
+                </div>
+
+                <a href="#products"
+                   class="view-all-link">
+                    View Catalogue
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+
+            </div>
+
+
+            <div class="row g-4">
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="product-card">
+
+                        <div class="product-image">
+                            <img src="{{ asset('images/products/moonlux-a-jonaki-machinery-store.jpeg') }}"
+                                 alt="MOONLUX V-Belt">
+                        </div>
+
+                        <div class="product-card-body">
+
+                            <span class="product-brand">
+                                MOONLUX
+                            </span>
+
+                            <h4>
+                                A Section V-Belt
+                            </h4>
+
+                            <div class="size-info">
+                                <span>Available Size</span>
+                                <strong>15 ~ 165 inches</strong>
+                            </div>
+
+                            <a href="#"
+                               class="product-link">
+                                View Details
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="product-card">
+
+                        <div class="product-image">
+                            <img src="{{ asset('images/products/moonlux-b-vbelt-jonaki-machinery-store.jpg') }}"
+                                 alt="MOONLUX V-Belt">
+                        </div>
+
+                        <div class="product-card-body">
+
+                            <span class="product-brand">
+                                MOONLUX
+                            </span>
+
+                            <h4>
+                                B Section V-Belt
+                            </h4>
+
+                            <div class="size-info">
+                                <span>Available Size</span>
+                                <strong>20 ~ 220 inches</strong>
+                            </div>
+
+                            <a href="#"
+                               class="product-link">
+                                View Details
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="product-card">
+
+                        <div class="product-image">
+                            <img src="{{ asset('images/products/moonlux-c-vbelt-jonaki-machinery-store.jpg') }}"
+                                 alt="MOONLUX V-Belt">
+                        </div>
+
+                        <div class="product-card-body">
+
+                            <span class="product-brand">
+                                MOONLUX
+                            </span>
+
+                            <h4>
+                                C Section V-Belt
+                            </h4>
+
+                            <div class="size-info">
+                                <span>Available Size</span>
+                                <strong>30 ~ 300 inches</strong>
+                            </div>
+
+                            <a href="#"
+                               class="product-link">
+                                View Details
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="product-card">
+
+                        <div class="product-image">
+                            <img src="{{ asset('images/products/moonlux-m-vbelt-jonaki-machinery-store.jpeg') }}"
+                                 alt="MOONLUX V-Belt">
+                        </div>
+
+                        <div class="product-card-body">
+
+                            <span class="product-brand">
+                                MOONLUX
+                            </span>
+
+                            <h4>
+                                M Section V-Belt
+                            </h4>
+
+                            <div class="size-info">
+                                <span>Available Size</span>
+                                <strong>15 ~ 70 inches</strong>
+                            </div>
+
+                            <a href="#"
+                               class="product-link">
+                                View Details
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="product-card">
+
+                        <div class="product-image">
+                            <img src="{{ asset('images/products/moonlux-hm-vbelt-jonaki-machinery-store.jpeg') }}"
+                                 alt="MOONLUX V-Belt">
+                        </div>
+
+                        <div class="product-card-body">
+
+                            <span class="product-brand">
+                                MOONLUX
+                            </span>
+
+                            <h4>
+                                HM Section V-Belt
+                            </h4>
+
+                            <div class="size-info">
+                                <span>Available Size</span>
+                                <strong>16 ~ 100 inches</strong>
+                            </div>
+
+                            <a href="#"
+                               class="product-link">
+                                View Details
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        {{-- =================================================
+             FUJIANG
+        ================================================== --}}
+        <div id="fujiang" class="brand-product-section">
+
+            <div class="brand-title-row">
+
+                <div>
+                    <span class="product-brand-label">
+                        FUJIANG
+                    </span>
+
+                    <h3>
+                        V-Belts
+                    </h3>
+                </div>
+
+                <a href="#products"
+                   class="view-all-link">
+                    View Catalogue
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+
+            </div>
+
+
+            <div class="row g-4">
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="product-card">
+
+                        <div class="product-image">
+                            <img src="{{ asset('images/products/fujiang-ax-vbelt-jonaki-machinery-store.jpeg') }}"
+                                 alt="FUJIANG V-Belt">
+                        </div>
+
+                        <div class="product-card-body">
+
+                            <span class="product-brand">
+                                FUJIANG
+                            </span>
+
+                            <h4>
+                                AX Section V-Belt
+                            </h4>
+
+                            <div class="size-info">
+                                <span>Available Size</span>
+                                <strong>20 ~ 100 inches</strong>
+                            </div>
+
+                            <a href="#"
+                               class="product-link">
+                                View Details
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="product-card">
+
+                        <div class="product-image">
+                            <img src="{{ asset('images/products/fujiang-ax-vbelt-jonaki-machinery-store.jpeg') }}"
+                                 alt="FUJIANG V-Belt">
+                        </div>
+
+                        <div class="product-card-body">
+
+                            <span class="product-brand">
+                                FUJIANG
+                            </span>
+
+                            <h4>
+                                BX Section V-Belt
+                            </h4>
+
+                            <div class="size-info">
+                                <span>Available Size</span>
+                                <strong>20 ~ 160 inches</strong>
+                            </div>
+
+                            <a href="#"
+                               class="product-link">
+                                View Details
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
 
         {{-- =================================================
              MITSUBOSHI
@@ -986,318 +1309,7 @@
         </div>
 
 
-        {{-- =================================================
-             MOONLUX
-        ================================================== --}}
-        <div id="moonlux" class="brand-product-section">
 
-            <div class="brand-title-row">
-
-                <div>
-                    <span class="product-brand-label">
-                        MOONLUX
-                    </span>
-
-                    <h3>
-                        V-Belts
-                    </h3>
-                </div>
-
-                <a href="#products"
-                   class="view-all-link">
-                    View Catalogue
-                    <i class="bi bi-arrow-right"></i>
-                </a>
-
-            </div>
-
-
-            <div class="row g-4">
-
-                <div class="col-md-6 col-lg-3">
-
-                    <div class="product-card">
-
-                        <div class="product-image">
-                            <img src="{{ asset('images/products/moonlux-a-jonaki-machinery-store.jpeg') }}"
-                                 alt="MOONLUX V-Belt">
-                        </div>
-
-                        <div class="product-card-body">
-
-                            <span class="product-brand">
-                                MOONLUX
-                            </span>
-
-                            <h4>
-                                A Section V-Belt
-                            </h4>
-
-                            <div class="size-info">
-                                <span>Available Size</span>
-                                <strong>15 ~ 165 inches</strong>
-                            </div>
-
-                            <a href="#"
-                               class="product-link">
-                                View Details
-                                <i class="bi bi-arrow-right"></i>
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="col-md-6 col-lg-3">
-
-                    <div class="product-card">
-
-                        <div class="product-image">
-                            <img src="{{ asset('images/products/moonlux-b-vbelt-jonaki-machinery-store.jpg') }}"
-                                 alt="MOONLUX V-Belt">
-                        </div>
-
-                        <div class="product-card-body">
-
-                            <span class="product-brand">
-                                MOONLUX
-                            </span>
-
-                            <h4>
-                                B Section V-Belt
-                            </h4>
-
-                            <div class="size-info">
-                                <span>Available Size</span>
-                                <strong>20 ~ 220 inches</strong>
-                            </div>
-
-                            <a href="#"
-                               class="product-link">
-                                View Details
-                                <i class="bi bi-arrow-right"></i>
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="col-md-6 col-lg-3">
-
-                    <div class="product-card">
-
-                        <div class="product-image">
-                            <img src="{{ asset('images/products/moonlux-c-vbelt-jonaki-machinery-store.jpg') }}"
-                                 alt="MOONLUX V-Belt">
-                        </div>
-
-                        <div class="product-card-body">
-
-                            <span class="product-brand">
-                                MOONLUX
-                            </span>
-
-                            <h4>
-                                C Section V-Belt
-                            </h4>
-
-                            <div class="size-info">
-                                <span>Available Size</span>
-                                <strong>30 ~ 300 inches</strong>
-                            </div>
-
-                            <a href="#"
-                               class="product-link">
-                                View Details
-                                <i class="bi bi-arrow-right"></i>
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="col-md-6 col-lg-3">
-
-                    <div class="product-card">
-
-                        <div class="product-image">
-                            <img src="{{ asset('images/products/moonlux-m-vbelt-jonaki-machinery-store.jpeg') }}"
-                                 alt="MOONLUX V-Belt">
-                        </div>
-
-                        <div class="product-card-body">
-
-                            <span class="product-brand">
-                                MOONLUX
-                            </span>
-
-                            <h4>
-                                M Section V-Belt
-                            </h4>
-
-                            <div class="size-info">
-                                <span>Available Size</span>
-                                <strong>15 ~ 70 inches</strong>
-                            </div>
-
-                            <a href="#"
-                               class="product-link">
-                                View Details
-                                <i class="bi bi-arrow-right"></i>
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="col-md-6 col-lg-3">
-
-                    <div class="product-card">
-
-                        <div class="product-image">
-                            <img src="{{ asset('images/products/moonlux-hm-vbelt-jonaki-machinery-store.jpeg') }}"
-                                 alt="MOONLUX V-Belt">
-                        </div>
-
-                        <div class="product-card-body">
-
-                            <span class="product-brand">
-                                MOONLUX
-                            </span>
-
-                            <h4>
-                                HM Section V-Belt
-                            </h4>
-
-                            <div class="size-info">
-                                <span>Available Size</span>
-                                <strong>16 ~ 100 inches</strong>
-                            </div>
-
-                            <a href="#"
-                               class="product-link">
-                                View Details
-                                <i class="bi bi-arrow-right"></i>
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-
-        {{-- =================================================
-             FUJIANG
-        ================================================== --}}
-        <div id="fujiang" class="brand-product-section">
-
-            <div class="brand-title-row">
-
-                <div>
-                    <span class="product-brand-label">
-                        FUJIANG
-                    </span>
-
-                    <h3>
-                        V-Belts
-                    </h3>
-                </div>
-
-                <a href="#products"
-                   class="view-all-link">
-                    View Catalogue
-                    <i class="bi bi-arrow-right"></i>
-                </a>
-
-            </div>
-
-
-            <div class="row g-4">
-
-                <div class="col-md-6 col-lg-3">
-
-                    <div class="product-card">
-
-                        <div class="product-image">
-                            <img src="{{ asset('images/products/fujiang-ax-vbelt-jonaki-machinery-store.jpeg') }}"
-                                 alt="FUJIANG V-Belt">
-                        </div>
-
-                        <div class="product-card-body">
-
-                            <span class="product-brand">
-                                FUJIANG
-                            </span>
-
-                            <h4>
-                                AX Section V-Belt
-                            </h4>
-
-                            <div class="size-info">
-                                <span>Available Size</span>
-                                <strong>20 ~ 100 inches</strong>
-                            </div>
-
-                            <a href="#"
-                               class="product-link">
-                                View Details
-                                <i class="bi bi-arrow-right"></i>
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <div class="col-md-6 col-lg-3">
-
-                    <div class="product-card">
-
-                        <div class="product-image">
-                            <img src="{{ asset('images/products/fujiang-ax-vbelt-jonaki-machinery-store.jpeg') }}"
-                                 alt="FUJIANG V-Belt">
-                        </div>
-
-                        <div class="product-card-body">
-
-                            <span class="product-brand">
-                                FUJIANG
-                            </span>
-
-                            <h4>
-                                BX Section V-Belt
-                            </h4>
-
-                            <div class="size-info">
-                                <span>Available Size</span>
-                                <strong>20 ~ 160 inches</strong>
-                            </div>
-
-                            <a href="#"
-                               class="product-link">
-                                View Details
-                                <i class="bi bi-arrow-right"></i>
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
 
     </div>
 
